@@ -18,7 +18,7 @@ function makeengine(){
     showpart();
 
 function showpart(){
-    currentpart.innerHTML = "Current Rear Wheel " + partlaskuri;
+    currentpart.innerHTML = "Current Engine " + partlaskuri;
     partlist.innerHTML = "<div><img src='osat/" + partkuvat[partlaskuri] + "' img class=" +"Engine"+ "></div>";
 }
 

@@ -19,7 +19,7 @@ function makenose(){
     showpart();
 
 function showpart(){
-    currentpart.innerHTML = "Current Rear Wheel " + partlaskuri;
+    currentpart.innerHTML = "Current Nose " + partlaskuri;
     partlist.innerHTML = "<div><img src='osat/" + partkuvat[partlaskuri] + "' img class=" +"Nose"+ "></div>";
 }
 
