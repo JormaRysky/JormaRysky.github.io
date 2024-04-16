@@ -14,7 +14,8 @@ function makewheelf(){
         "rengasetu6.png",
         "rengasetu7.png",
         "rengasetu8.png",
-        "rengasetu9.png"
+        "rengasetu9.png",
+        "rengasetu10.png"
     ];
 
     let partlaskuri = 0;
