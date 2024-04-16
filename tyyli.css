@@ -1,0 +1,150 @@
+.nappula {
+    display: flexbox;
+    flex-direction: column;
+    border: 1px green solid;
+  }
+
+  .laskuri {
+   /* display: none;*/
+    flex-direction: row;
+    border: 1px green solid;
+  }
+
+.BumpF{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 116;
+  }
+
+  .BumpR{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 60;
+  }
+
+  .GunF{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 50;
+  }
+
+  .GunR{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 13;
+  }
+
+  .Unused2{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 12;
+  }
+
+  .Engine{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 11;
+  }
+
+  .WHRear{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 17;
+  }
+    
+
+  
+  .Fuel{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 8;
+  }
+    
+  .Nose{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 7;
+  }
+    
+  .Door{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 6;
+  }
+    
+  .Rear{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 5;
+  }
+  
+  .Roof{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 4;
+  }
+    
+
+    
+  .Exhaust{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 16;
+  }
+  
+  .WhFR{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 1;
+  }
+    
+  .Suspension{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 0;
+  }
+
+  .Chassis{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: -10;
+  }
+
+  .RoofGun{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: -13;
+  }
+
+  .Background{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    border: 1px green solid;
+    z-index: -100;
+
+  }
+
+  img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+
+  }
