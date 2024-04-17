@@ -11,6 +11,7 @@ function makebumperf(){
         "etupusk3.png",
         "etupusk4.png",
         "etupusk5.png",
+        "etupusk6.png",
     ];
 
     let partlaskuri = 0;
