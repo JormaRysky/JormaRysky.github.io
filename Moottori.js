@@ -10,7 +10,11 @@ function makeengine(){
         "moottori2.png",
         "moottori3.png",
         "moottori4.png",
-        "moottori5.png"
+        "moottori5.png",
+        "moottori6.png",
+        "moottori7.png",
+        "moottori8.png",
+        "moottori9.png",
     ];
 
     let partlaskuri = 0;
