@@ -9,7 +9,9 @@ function makefuel(){
         "pa1.png",
         "pa2.png",
         "pa3.png",
-        "pa4.png"
+        "pa4.png",
+        "pa5.png",
+        "pa6.png"
     ];
 
     let partlaskuri = 0;
