@@ -8,7 +8,8 @@ function makesuspension(){
         "empty.png",
         "suspension1.png",
         "suspension2.png",
-        "suspension3.png"
+        "suspension3.png",
+        "suspension4.png"
     ];
 
     let partlaskuri = 0;
