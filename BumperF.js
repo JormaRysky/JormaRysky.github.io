@@ -7,7 +7,10 @@ function makebumperf(){
     const partkuvat = [
         "empty.png",
         "etupusk1.png",
-        "etupusk2.png"
+        "etupusk2.png",
+        "etupusk3.png",
+        "etupusk4.png",
+        "etupusk5.png",
     ];
 
     let partlaskuri = 0;

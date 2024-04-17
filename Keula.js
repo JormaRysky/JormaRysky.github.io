@@ -11,7 +11,8 @@ function makenose(){
         "keula4.png",
         "keula5.png",
         "keula6.png",
-        "keula7.png"
+        "keula7.png",
+        "keula8.png"
     ];
 
     let partlaskuri = 0;

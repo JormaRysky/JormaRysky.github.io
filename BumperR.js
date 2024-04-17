@@ -7,7 +7,9 @@ function makebumperr(){
     const partkuvat = [
         "empty.png",
         "takapusk1.png",
-        "takapusk2.png"
+        "takapusk2.png",
+        "takapusk3.png",
+        "takapusk4.png"
     ];
 
     let partlaskuri = 0;

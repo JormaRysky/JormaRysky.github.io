@@ -11,7 +11,9 @@ function makedoor(){
         "ovi3.png",
         "ovi4.png",
         "ovi5.png",
-        "ovi6.png"
+        "ovi6.png",
+        "ovi7.png",
+        "ovi8.png"
     ];
 
     let partlaskuri = 0;
