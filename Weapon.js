@@ -12,6 +12,7 @@ function makeweapon(){
         "weaponroof4.png",
         "weaponroof5.png",
         "weaponroof6.png",
+        "weaponroof7.png",
     ];
 
     let partlaskuri = 0;
