@@ -9,7 +9,12 @@ function makeweaponf(){
         "weaponfront1.png",
         "weaponfront2.png",
         "weaponfront3.png",
-        "weaponfront4.png"
+        "weaponfront4.png",
+        "weaponfront5.png",
+        "weaponfront6.png",
+        "weaponfront7.png",
+        "weaponfront8.png",
+        "weaponfront9.png",
     ];
 
     let partlaskuri = 0;
