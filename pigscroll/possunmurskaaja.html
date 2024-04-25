@@ -1,0 +1,128 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" />
+    <title>Making your first Phaser 3 Game - Part 10</title>
+    <link href="possuscroll.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var config = {
+    type: Phaser.AUTO,
+    width: 640,
+    height: 600,
+    backgroundColor: '#4488aa',
+    pixelArt: true,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 300 },
+            debug: false
+        }
+    },
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+var cursors;
+var body;
+var pig;
+var murskain;
+var h;
+var w;
+var positionText;
+
+
+
+var game = new Phaser.Game(config);
+
+function preload ()
+{
+    this.load.setBaseURL('https://jormarysky.github.io.');
+    this.load.image('squish', 'pigscroll/Kuollupossu_pal.png');
+    this.load.image('pig', 'pigscroll/Pigcop.png');
+    this.load.image('crap', 'pigscroll/Crap.png');
+    this.load.image('crusher', 'pigscroll/murskaaja.png');
+    this.load.image('hydraulic', 'pigscroll/Hydrauli.png');
+    this.load.image('gear', 'pigscroll/ratas.png');    
+    this.load.image('part1', 'pigscroll/part1.png');   
+}
+
+function create ()
+{
+    cursors = this.input.keyboard.createCursorKeys();
+
+    h = game.config.height - 220;
+    w = game.config.width;
+
+    crap = this.add.sprite(320, 584, "crap").setInteractive().setOrigin(0.5,1);
+    crap.displayHeight = 30;
+    crap.displayWidth = w - 100;
+    crap.visible = false;
+
+    body = this.add.sprite(320, 580, "squish").setInteractive().setOrigin(0.5,1);
+    body.visible = false;
+    pig = this.add.sprite(320, 580, "pig").setInteractive().setOrigin(0.5,1);
+
+    murskain = this.add.sprite(320, 205, "crusher").setInteractive().setOrigin(0.5,1);
+    murskain.displayHeight = h;
+    murskain.displayWidth = w;
+
+    ratas = this.add.sprite(400, 600, "gear");
+    ratas.displayHeight = 150;
+    ratas.displayWidth = 150;
+
+    var hydrauli = this.add.sprite(320, 345, "hydraulic").setInteractive().setOrigin(0.5,1);
+    hydrauli.displayHeight = h;
+    hydrauli.displayWidth = w;
+
+    positionText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#999' })
+
+}
+
+function update (time, delta)
+{
+
+    if (h <= 380 && cursors.up.isDown){
+        h = (h+3);
+        w = (w-3);
+    }
+    /*else{
+        h = 380;
+        w= 640;
+    }*/
+
+    if (h >= 0 && cursors.down.isDown){
+        h = (h-2);
+        w = (w+2);
+    }
+
+    pig.displayHeight = h + 7 ;
+    pig.displayWidth = w;
+
+    body.displayHeight =  h + 7 ;
+    body.displayWidth = w;
+
+    murskain.y = ((h * -1) + 580) ;
+    ratas.y = ((h * -1) + 500) ;
+    ratas.rotation = ((h * -1) * 0.02) ;
+
+    positionText.setText(h + "-" + w);
+
+    if (h <= 20){
+        body.visible = true;
+        pig.visible = false;
+        crap.visible = true;
+    }  
+}
+
+</script>
+
+</body>
+</html>
