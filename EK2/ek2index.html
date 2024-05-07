@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="ektyyli.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+        <title>Elonkorjuu 2</title>
+    </head>
+<body>
+    <main>
+        <header>
+            <div class="pixelart">
+                <img src= "ek_kuvat/kek_logo.png" alt="face of our beautiful boy"></div>
+            </div>
+            <h1>Elonkorjuu 2</h1>
+
+            <nav>
+                <ul class="navilinkit" id="navipalkki">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#characters">Characters</a></li>
+                    <li><a href="#environments">Environments</a></li>
+                    <li><a href="#development">Development</a></li>
+                    <li><a href="#screenshots">Gallery</a></li>
+                </ul>
+        </header>
+        <section id="about"><h2>About</h2>
+
+        <p>It's august and it's time to harvest the crop.</p>
+
+        <p>Too bad your teeth fell off back in 1985, so you are stuck hunting with only your trusty and rusty sickle.</p>
+
+        <div class="left">Your goal is to hunt every living thing inside the level and go back to sleep inside your cozy coffin. Beware of lighted spaces as you are allergic to light.</div>
+
+        <div class="left">Also did we forget to tell you are 4th dimensional being too. While for humans it looks like magic, as a higher dimensional being you know it is not all blessing.
+        You are always hearing call of the void, empty, black, lifeless (in different way than you) void. It is surrounding you everywhere you go, you are stuck in 4th-dimension like humans are in third.
+        </div>
+
+        </section>
+
+        <section id="characters"><h2>Characters</h2>
+
+            <h3>Vanha Vampyyri</h3>
+            <h3>Kullankaivaja</h3>
+
+        <section id="environments"><h2>Environments</h2>
+
+            <h3>Tar Pits Over The Void</h3>
+            <div class="kuva"><img src="ek_kuvat/tarpits.png" alt="Tar pits floating in emptiness"></div>
+            <h3>Finnish Hoaxes</h3>
+            <div class="kuva"><img src="ek_kuvat/silverstar.png" alt="Silvo Sokka's Silverstar"></div>
+            <h3>End Of The World Carnevals</h3>
+            <div class="kuva"><img src="ek_kuvat/karnevaali.png" alt="Burning Helsinki Central Railway Station and long tables with human remains on plates"></div>
+
+        <section id="development"><h2>Development</h2>
+
+
+        <p>Elonkorjuu started it's life as entry for Ludum Dare 52. Originally made in 72 hours by Elmeri N. & Jorma Rysky, and later slightly updated,</p>
+            <a href="https://codingduck.itch.io/elonkorjuu">Elonkorjuu - Live Harvest</a>
+            <p>got overwhelmingly positive reviews during jam and ranked 62nd overall and 44th in graphics category out of 1144 Jam-entries.</p>
+
+            <div class="kuva"><img src="ek_kuvat/ld52results.png" alt=
+                "Final results of Ludum Dare 52.
+                Overall: 62nd (4.068 average from 112 ratings)
+                Fun: 120th (3.895 average from 112 ratings)
+                Innovation: 305th (3.436 average from 111 ratings)
+                Theme: 265th (3.923 average from 112 ratings)
+                Graphics: 44th (4.473 average from 114 ratings)
+                Audio: 98th (3.873 average from 112 ratings)
+                Humor: 265th (3.257 average from 105 ratings)
+                Mood: 66th (4.116 average from 110 ratings)"></div>
+            
+            <h3>Said about Elonkorjuu-Live Harvest</h3>
+
+                <div class ="quotes">"Pretty retro bro"</div>
+                <div class ="quotes">"Some sounds are too unpleasant (like ticking of you health)."</div>
+                <div class ="quotes">"Ghosts models had some artifacts."</div>
+                <div class ="quotes">"Camera rotation lock doesn’t feel well in 21 century. I’d suggest you to let players see around them in all directions. It’s not Doom 1."</div>
+                <div class ="quotes">"Onko mahdollista saada Web/Mac buildia?"</div>
+
+            <h3>Enter the Elonkorjuu 2</h3>
+
+            <p>During post jam period we thought about making full game out of "EK-LH". However after taking hiatus from development, we realized base is too rough and limited for full scale production.
+            We also pretty much did everything we could with gameplay formula, all the new additions to it (which you can only enable with Post Jam-builds level editor) made core formula weaker and jankier.</p>
+
+            <p>So let's scrap it all and build new game in Bevy (Not in Godot as we originally announced.)</p>
+
+            <p>Bevy being interfaceless game engine, we are not going to run into limits of content loading outside of build, cause -EVERYTHING- is loaded outside by default.
+                 This means all graphics, no matter if they are 2D, 3D or fonts can be replaced without much effort. Also level format is our own propiertary, so no problems with that either.
+                 This is ideal for Total Conversion-mods.</p>
+
+            <p>Most of the (charming, but well... limiting) limits have stripped from graphics creation. We employed very strict rules for EK-LH that enabled me to create stylistically cohesive,
+                 fully 3D game in those short 72 hours. For example all planes were aligned in 90-degree rotations. There was no billboarding sprites. All level elements were built with 2m x 2m grid in mind.
+                 There were no lighting of any kind.
+                
+            <p>And while these rules were part of what made ''EK - LH'' what it is, for full fledged game I'd rather go for more fidelity. Keep all the good, characteristics aspects (1-bit colours, stop motion animations)
+                and strip those away that only add to clunkyness.</p>
+
+            <p>Same with gameplay. For ''Wolfenstein 3D'' style gameplay of ''EK - LH'' vertical camera lock and lack of jump worked well. 
+                However those were first things we got rid of when we started putting together idea for ''EK2''</p>
+
+            <section id="screenshots"><h2>Gallery</h2> <h3>Various In Development Screenshots And Mockups</h3></section>
+            <div class="kuva"><img src="ek_kuvat/hautuumaa.png" alt="heavily post processed 1-bit scene of graveyard, with bluish green palette."></div>
+            <div class="kuva"><img src="ek_kuvat/daytime.png" alt="Old house in bright, foggy day time."></div>
+            <div class="kuva"><img src="ek_kuvat/colliders.png" alt="Example of how everything is box colliders and how to still achieve real sloped surfaces"></div>
+            <div class="kuva"><img src="ek_kuvat/hiteffect.png" alt="Example of possible hit effect employing momentiraly overdone chromatic aberration"></div>
+            <div class="kuva"><img src="ek_kuvat/leveldesign.png" alt=""></div>
+            <div class="kuva"><img src="ek_kuvat/meri.gif" alt=".Gif of very primitive water simulation"></div>
+            <div class="kuva"><img src="ek_kuvat/lyönti.gif" alt=".Gif of frame by frame sickle animation"></div>
+            <div class="kuva"><img src="ek_kuvat/hotrod_comp.png" alt="Textureless 3D models of hot rod from EK1 and EK2 compared"></div>
+            <div class="kuva"><img src="ek_kuvat/sumu.png" alt="Very primitive fog simulation, employing meshes with semi alpha textures"></div>
+            <div class="kuva"><img src="ek_kuvat/reflections.png" alt="Awesome reflections, that are actually just mesh duplicated and mirrored"></div>
+            <div class="kuva"><img src="ek_kuvat/levelformat.png" alt="Level editor of EK-LH during jam was Google Docs. Docs allowed some amount of visualization cause it was possible to give color for numbers, but otherwise it was all visualized in head."></div>
+            <div class="kuva"><img src="ek_kuvat/handsprites.png" alt="Process of drawing hands, emplying rotoscoping techniques"></div>
+            <div class="kuva"><img src="ek_kuvat/konseptit.png" alt="Some surviving concepts for EK-LH Post Jam"></div>
+
+        </section>
+
+        
+        
+
+
+        
+        
+        
+    </main>
+
+</body>
+</html>
