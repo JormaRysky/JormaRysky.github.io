@@ -1,19 +1,74 @@
+/*body{
+    display: block;
+    place-items: center;
+    width: 50%;
+}*/
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+    color: rgb(200, 9, 9);
   }
+
 html {
     scroll-behavior: smooth;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(216, 197, 197);
   }
+
+
+img.news-image {
+    background: #dadada;
+    height: 40em;
+  }
+  p.news-info {
+    margin-top: 0;
+  }
+
+  .news-item {
+    clear: both;
+    border-top: 1px solid #dadada;
+    
+  }
+
+  .news-item:nth-child(odd) div.news-info {
+    float: right;
+    padding-right: 25em;
+    text-align: left;
+  }
+  .news-item:nth-child(even) div.news-info {
+    float: left;
+    padding-left: 25em;
+    text-align: left;
+  }
+
+  .news-item:nth-child(odd) div.news-image {
+    float: left;
+    padding-left: 25em;
+    
+  }
+
+  .news-item:nth-child(even) div.news-image {
+    float: right;
+    padding-right: 25em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1,
 h2,
 h3,
 h4,
 a {
-    text-align: left;
+
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -21,7 +76,7 @@ a {
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
-
+/*
 h1{
     font-size: 3rem;
 }
@@ -90,11 +145,21 @@ p,
         image-rendering: crisp-edges;
 }
 
-.kuva {
+.envkuva,
+.galkuva,
+.kuva,
+.nappi-img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
     max-width: 50%;
     height: auto;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
-  
+
+.poop
+{
+
+}
+  */

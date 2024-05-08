@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
         <title>Elonkorjuu 2</title>
+        <script src="slider.js" defer></script>
     </head>
 <body>
     <main>
@@ -27,6 +28,9 @@
                     <li><a href="#screenshots">Gallery</a></li>
                 </ul>
         </header>
+    </main>
+
+
         <section id="about"><h2>About</h2>
 
         <p>It's august and it's time to harvest the crop.</p>
@@ -36,25 +40,63 @@
         <div class="left">Your goal is to hunt every living thing inside the level and go back to sleep inside your cozy coffin. Beware of lighted spaces as you are allergic to light.</div>
 
         <div class="left">Also did we forget to tell you are 4th dimensional being too. While for humans it looks like magic, as a higher dimensional being you know it is not all blessing.
-        You are always hearing call of the void, empty, black, lifeless (in different way than you) void. It is surrounding you everywhere you go, you are stuck in 4th-dimension like humans are in third.
+        You are always hearing call of the void, empty, black, lifeless (in different way than you) void. It is surrounding you everywhere you go, you are stuck in 4 dimensions like humans are in three.
         </div>
-
         </section>
 
         <section id="characters"><h2>Characters</h2>
 
-            <h3>Vanha Vampyyri</h3>
-            <h3>Kullankaivaja</h3>
+            <div class="news-list">
+                <div class="news-item">
+                  <div class="news-image">
+                    <img class="news-image" src="ek_kuvat/kullankaivaja.png" alt="shirtless man with long beard and showel">
+                  </div>
+                  <div class="news-info">
+                    <p class="news-info">
+                        <h3>Kullankaivaja</h3>
+                      Kullankaivaja on jotain jotain jotain jotain jotain jotain jotain jotain <br> 
+                      jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain<br>
+                      <br> jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
+                      jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
+                    </p>
+                  </div>
+                </div>
+              
+                <div class="news-item">
+                  <div class="news-image">
+                    <img class="news-image" src="ek_kuvat/juna.png" alt="Old steam locomotive with railroad car" />
+                  </div>
+                  <div class="news-info">
+                    <p class="news-info">
+                        <h3>Juna</h3>
+
+                        Juna  on jotain jotain jotain jotain jotain jotain jotain jotain <br> 
+                        jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain<br>
+                        <br> jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
+                        jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </section>
 
         <section id="environments"><h2>Environments</h2>
 
-            <h3>Tar Pits Over The Void</h3>
-            <div class="kuva"><img src="ek_kuvat/tarpits.png" alt="Tar pits floating in emptiness"></div>
-            <h3>Finnish Hoaxes</h3>
-            <div class="kuva"><img src="ek_kuvat/silverstar.png" alt="Silvo Sokka's Silverstar"></div>
-            <h3>End Of The World Carnevals</h3>
-            <div class="kuva"><img src="ek_kuvat/karnevaali.png" alt="Burning Helsinki Central Railway Station and long tables with human remains on plates"></div>
 
+            <div id="currentenvtitle"></div>
+
+            <div class="environment slider">
+                <div class="envkuva"><img src="ek_kuvat/tarpits.png" alt="Tar pits floating in emptiness"></div>
+                <div class="envkuva"><img src="ek_kuvat/silverstar.png" alt="Silvo Sokka's Silverstar"></div>
+                <div class="envkuva"><img src="ek_kuvat/karnevaali.png" alt="Burning Helsinki Central Railway Station and long tables with human remains on plates"></div>
+                <div class="envkuva"><img src="ek_kuvat/kanjoni.png" alt="Train and bunch of ghosts"></div>
+            </div>
+
+            <div class="envbutt">
+                <button id="oikealle" onclick="nextenvImage()"> <img class="nappi-img" src="ek_kuvat/left.png"> </button>
+                <button id="vasemmalle" onclick="prevenvImage()"> <img class="nappi-img" src="ek_kuvat/right.png"> </button>
+            </div>
+            
         <section id="development"><h2>Development</h2>
 
 
@@ -103,19 +145,26 @@
                 However those were first things we got rid of when we started putting together idea for ''EK2''</p>
 
             <section id="screenshots"><h2>Gallery</h2> <h3>Various In Development Screenshots And Mockups</h3></section>
-            <div class="kuva"><img src="ek_kuvat/hautuumaa.png" alt="heavily post processed 1-bit scene of graveyard, with bluish green palette."></div>
-            <div class="kuva"><img src="ek_kuvat/daytime.png" alt="Old house in bright, foggy day time."></div>
-            <div class="kuva"><img src="ek_kuvat/colliders.png" alt="Example of how everything is box colliders and how to still achieve real sloped surfaces"></div>
-            <div class="kuva"><img src="ek_kuvat/hiteffect.png" alt="Example of possible hit effect employing momentiraly overdone chromatic aberration"></div>
-            <div class="kuva"><img src="ek_kuvat/leveldesign.png" alt=""></div>
-            <div class="kuva"><img src="ek_kuvat/meri.gif" alt=".Gif of very primitive water simulation"></div>
-            <div class="kuva"><img src="ek_kuvat/lyönti.gif" alt=".Gif of frame by frame sickle animation"></div>
-            <div class="kuva"><img src="ek_kuvat/hotrod_comp.png" alt="Textureless 3D models of hot rod from EK1 and EK2 compared"></div>
-            <div class="kuva"><img src="ek_kuvat/sumu.png" alt="Very primitive fog simulation, employing meshes with semi alpha textures"></div>
-            <div class="kuva"><img src="ek_kuvat/reflections.png" alt="Awesome reflections, that are actually just mesh duplicated and mirrored"></div>
-            <div class="kuva"><img src="ek_kuvat/levelformat.png" alt="Level editor of EK-LH during jam was Google Docs. Docs allowed some amount of visualization cause it was possible to give color for numbers, but otherwise it was all visualized in head."></div>
-            <div class="kuva"><img src="ek_kuvat/handsprites.png" alt="Process of drawing hands, emplying rotoscoping techniques"></div>
-            <div class="kuva"><img src="ek_kuvat/konseptit.png" alt="Some surviving concepts for EK-LH Post Jam"></div>
+            <div class="galkuva"><img src="ek_kuvat/hautuumaa.png" alt="heavily post processed 1-bit scene of graveyard, with bluish green palette."></div>
+            <div class="galkuva"><img src="ek_kuvat/daytime.png" alt="Old house in bright, foggy day time."></div>
+            <div class="galkuva"><img src="ek_kuvat/colliders.png" alt="Example of how everything is box colliders and how to still achieve real sloped surfaces"></div>
+            <div class="galkuva"><img src="ek_kuvat/hiteffect.png" alt="Example of possible hit effect employing momentiraly overdone chromatic aberration"></div>
+            <div class="galkuva"><img src="ek_kuvat/leveldesign.png" alt=""></div>
+            <div class="galkuva"><img src="ek_kuvat/meri.gif" alt=".Gif of very primitive water simulation"></div>
+            <div class="galkuva"><img src="ek_kuvat/lyönti.gif" alt=".Gif of frame by frame sickle animation"></div>
+            <div class="galkuva"><img src="ek_kuvat/hotrod_comp.png" alt="Textureless 3D models of hot rod from EK1 and EK2 compared"></div>
+            <div class="galkuva"><img src="ek_kuvat/sumu.png" alt="Very primitive fog simulation, employing meshes with semi alpha textures"></div>
+            <div class="galkuva"><img src="ek_kuvat/reflections.png" alt="Awesome reflections, that are actually just mesh duplicated and mirrored"></div>
+            <div class="galkuva"><img src="ek_kuvat/levelformat.png" alt="Level editor of EK-LH during jam was Google Docs. Docs allowed some amount of visualization cause it was possible to give color for numbers, but otherwise it was all visualized in head."></div>
+            <div class="galkuva"><img src="ek_kuvat/handsprites.png" alt="Process of drawing hands, emplying rotoscoping techniques"></div>
+            <div class="galkuva"><img src="ek_kuvat/konseptit.png" alt="Some surviving concepts for EK-LH Post Jam"></div>
+
+            <div class="galbutt">
+                <button id="oikealle" onclick="nextgalImage()"> <img class="nappi-img" src="ek_kuvat/left.png"> </button>
+                <button id="vasemmalle" onclick="prevgalImage()"> <img class="nappi-img" src="ek_kuvat/right.png"> </button>
+            </div>
+
+
 
         </section>
 
@@ -126,7 +175,7 @@
         
         
         
-    </main>
+
 
 </body>
 </html>
