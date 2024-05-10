@@ -11,14 +11,15 @@
         <title>Elonkorjuu 2</title>
         <script src="slider.js" defer></script>
     </head>
+
 <body>
-    <main>
         <header>
+            <button class="burgeri" id="hamppari">&#9776;</button>
+
             <div class="pixelart">
                 <img src= "ek_kuvat/kek_logo.png" alt="face of our beautiful boy"></div>
+                <a href="ek2index.html" class="logolinkki"><span class="logoteksti">Elonkorjuu 2</span></a>
             </div>
-            <h1>Elonkorjuu 2</h1>
-
             <nav>
                 <ul class="navilinkit" id="navipalkki">
                     <li><a href="#about">About</a></li>
@@ -27,26 +28,41 @@
                     <li><a href="#development">Development</a></li>
                     <li><a href="#screenshots">Gallery</a></li>
                 </ul>
+            </nav>
         </header>
-    </main>
 
-
-        <section id="about"><h2>About</h2>
-
-        <p>It's august and it's time to harvest the crop.</p>
-
-        <p>Too bad your teeth fell off back in 1985, so you are stuck hunting with only your trusty and rusty sickle.</p>
-
-        <div class="left">Your goal is to hunt every living thing inside the level and go back to sleep inside your cozy coffin. Beware of lighted spaces as you are allergic to light.</div>
-
-        <div class="left">Also did we forget to tell you are 4th dimensional being too. While for humans it looks like magic, as a higher dimensional being you know it is not all blessing.
-        You are always hearing call of the void, empty, black, lifeless (in different way than you) void. It is surrounding you everywhere you go, you are stuck in 4 dimensions like humans are in three.
+<main>
+<section id="about"><h2>About</h2>
+        <div class="centertext">
+            <p>It's august and it's time to harvest the crop.</p>
+            <p>Too bad your teeth fell off back in 1985, so you are stuck hunting with only your trusty and rusty sickle.</p>
+            <p>Your goal is to hunt every living thing inside the level and go back to sleep inside your cozy coffin. Beware of lighted spaces as you are allergic to light.</p>
+            <p>Also did we forget to tell you are 4th dimensional being too. While for humans it looks like magic, as a higher dimensional being you know it is not all blessing.
+            You are always hearing call of the void, empty, black, lifeless (in different way than you) void. It is surrounding you everywhere you go, you are stuck in 4 dimensions like humans are in three.
+            </p>
         </div>
-        </section>
+</section>
 
-        <section id="characters"><h2>Characters</h2>
+<section class="clear"></section>
 
+<section id="characters">
+    
+    <h2>Characters</h2>
             <div class="news-list">
+                <div class="news-item">
+                    <div class="news-image">
+                      <img class="news-image" src="ek_kuvat/badguy.png" alt="Not tooo traditional vampire">
+                    </div>
+                    <div class="news-info">
+                      <p class="news-info">
+                          <h3>Vanha Vampyyri</h3>
+                        <p>It's our hero. Toothless vampire whose salad days have since long gone. Now all interest he has left are drinking blood, fixing old bicycles and just trying to be decent neightbour.
+                            He also has had plague since 1600's. Makes him constantly pissed off, that abdominal pain have continued for centuries now. </p>
+                        <p> But atleast after he carved few new cervical vertebraes out of rowan wood, he has been able to look up and down again.</p>
+                      </p>
+                    </div>
+                  </div>
+
                 <div class="news-item">
                   <div class="news-image">
                     <img class="news-image" src="ek_kuvat/kullankaivaja.png" alt="shirtless man with long beard and showel">
@@ -54,10 +70,7 @@
                   <div class="news-info">
                     <p class="news-info">
                         <h3>Kullankaivaja</h3>
-                      Kullankaivaja on jotain jotain jotain jotain jotain jotain jotain jotain <br> 
-                      jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain<br>
-                      <br> jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
-                      jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
+                      <p>This gold digging guydude is very possessive of his hard earned nuggets. He will dig your brains out if you give him change. Proceed with caution into his territory.</p>
                     </p>
                   </div>
                 </div>
@@ -69,52 +82,113 @@
                   <div class="news-info">
                     <p class="news-info">
                         <h3>Juna</h3>
-
-                        Juna  on jotain jotain jotain jotain jotain jotain jotain jotain <br> 
-                        jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain<br>
-                        <br> jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
-                        jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain jotain
+                        <p>Sickle it and it bleeds. Just dont get ran over, cause it hits like 30 short tons of steel. Which it pretty much is.</p>
                     </p>
                   </div>
                 </div>
               </div>
-        </section>
 
-        <section id="environments"><h2>Environments</h2>
-
-
-            <div id="currentenvtitle"></div>
-
-            <div class="environment slider">
-                <div class="envkuva"><img src="ek_kuvat/tarpits.png" alt="Tar pits floating in emptiness"></div>
-                <div class="envkuva"><img src="ek_kuvat/silverstar.png" alt="Silvo Sokka's Silverstar"></div>
-                <div class="envkuva"><img src="ek_kuvat/karnevaali.png" alt="Burning Helsinki Central Railway Station and long tables with human remains on plates"></div>
-                <div class="envkuva"><img src="ek_kuvat/kanjoni.png" alt="Train and bunch of ghosts"></div>
+        <div class="news-item">
+            <div class="news-image">
+                <p>Picture unavailable</p>
             </div>
-
-            <div class="envbutt">
-                <button id="oikealle" onclick="nextenvImage()"> <img class="nappi-img" src="ek_kuvat/left.png"> </button>
-                <button id="vasemmalle" onclick="prevenvImage()"> <img class="nappi-img" src="ek_kuvat/right.png"> </button>
+            <div class="news-info">
+              <p class="news-info">
+                  <h3>To Be Announced</h3>
+                  <p>Check back... never</p>
+              </p>
             </div>
+          </div>
+        </div>
+</section>
+
+<section class="clear"></section>
+
+<section id="environments">
+    <h2>Environments</h2>
+            <div class="news-item">
+                <div class="news-image">
+                  <img class="news-image" src="ek_kuvat/tarpits.png" alt="Tar pits floating in emptiness">
+                </div>
+                <div class="news-info">
+                  <p class="news-info">
+                      <h3>Tarpits Over the Void</h3>
+                    <p>As you are dimensional traveler, some of things you see does not make sense for mortal brains. Everything has this disconnected feel of floating in emptiness.
+                        And worst part is, you can't do anything for it. You are only traveler, not some kind of god able to transform dimensions or decide which wormhole goes where.
+                        So just deal with it and jump from floating island to another.
+                    </p>
+                  </p>
+                </div>
+              </div>
+
+              <div class="news-item">
+                <div class="news-image">
+                  <img class="news-image" src="ek_kuvat/silverstar.png" alt="Silvo Sokka's Silverstar">
+                </div>
+                <div class="news-info">
+                  <p class="news-info">
+                      <h3>Famous Finnish Hoaxes</h3>
+                    <p>It seems that here lies are truth. See hoaxes become alive under your eyes.</p>
+                  </p>
+                </div>
+              </div>
+
+              <div class="news-item">
+                <div class="news-image">
+                  <img class="news-image" src="ek_kuvat/kanjoni.png" alt="Train and bunch of ghosts">
+                </div>
+                <div class="news-info">
+                  <p class="news-info">
+                      <h3>Ghost Canyon</h3>
+                    <p>These ghost-folks are poor friends, they don't bleed. Just let them alone and mind your own business.</p>
+                  </p>
+                </div>
+              </div>
+
+              <div class="news-item">
+                <div class="news-image">
+                  <img class="news-image" src="ek_kuvat/karnevaali.png" alt="Burning Helsinki Central Railway Station and long tables with human remains on plates">
+                </div>
+                <div class="news-info">
+                  <p class="news-info">
+                      <h3>End Of The World Carneval</h3>
+                    <p>Society is weird thing. Small things like plague makes it go mad. Anarchy (in words all negative connotations) started third day, week in there were human sacrifices.</p>
+                  </p>
+                </div>
+              </div>
+</section>
+
+<section class="clear"></section>           
             
-        <section id="development"><h2>Development</h2>
+<section id="development">
 
+    <h2>Development</h2>
+    
+            <div class="news-item">
+                <div class="news-image">
+                  <img class="news-image" src="ek_kuvat/ld52results.png" alt=
+                  "Final results of Ludum Dare 52.
+                  Overall: 62nd (4.068 average from 112 ratings)
+                  Fun: 120th (3.895 average from 112 ratings)
+                  Innovation: 305th (3.436 average from 111 ratings)
+                  Theme: 265th (3.923 average from 112 ratings)
+                  Graphics: 44th (4.473 average from 114 ratings)
+                  Audio: 98th (3.873 average from 112 ratings)
+                  Humor: 265th (3.257 average from 105 ratings)
+                  Mood: 66th (4.116 average from 110 ratings)">
+                </div>
+                <div class="news-info">
+                  <p class="news-info">
+                      <p>Elonkorjuu started it's life as entry for Ludum Dare 52. Originally made in 72 hours by Elmeri N. & Jorma Rysky, and later slightly updated,
+                      <a href="https://codingduck.itch.io/elonkorjuu">Elonkorjuu - Live Harvest</a>
+                      got overwhelmingly positive reviews during jam and ranked 62nd overall and 44th in graphics category out of 1144 Jam-entries.
+                      Post jam build currently hold 3.5 stars rating out of 5 in Itch.io</p>
+                  </p>
+                </div>
+              </div>
 
-        <p>Elonkorjuu started it's life as entry for Ludum Dare 52. Originally made in 72 hours by Elmeri N. & Jorma Rysky, and later slightly updated,</p>
-            <a href="https://codingduck.itch.io/elonkorjuu">Elonkorjuu - Live Harvest</a>
-            <p>got overwhelmingly positive reviews during jam and ranked 62nd overall and 44th in graphics category out of 1144 Jam-entries.</p>
-
-            <div class="kuva"><img src="ek_kuvat/ld52results.png" alt=
-                "Final results of Ludum Dare 52.
-                Overall: 62nd (4.068 average from 112 ratings)
-                Fun: 120th (3.895 average from 112 ratings)
-                Innovation: 305th (3.436 average from 111 ratings)
-                Theme: 265th (3.923 average from 112 ratings)
-                Graphics: 44th (4.473 average from 114 ratings)
-                Audio: 98th (3.873 average from 112 ratings)
-                Humor: 265th (3.257 average from 105 ratings)
-                Mood: 66th (4.116 average from 110 ratings)"></div>
-            
+<section class="clear"></section>
+<div class="centertext">    
             <h3>Said about Elonkorjuu-Live Harvest</h3>
 
                 <div class ="quotes">"Pretty retro bro"</div>
@@ -122,7 +196,6 @@
                 <div class ="quotes">"Ghosts models had some artifacts."</div>
                 <div class ="quotes">"Camera rotation lock doesn’t feel well in 21 century. I’d suggest you to let players see around them in all directions. It’s not Doom 1."</div>
                 <div class ="quotes">"Onko mahdollista saada Web/Mac buildia?"</div>
-
             <h3>Enter the Elonkorjuu 2</h3>
 
             <p>During post jam period we thought about making full game out of "EK-LH". However after taking hiatus from development, we realized base is too rough and limited for full scale production.
@@ -144,38 +217,41 @@
             <p>Same with gameplay. For ''Wolfenstein 3D'' style gameplay of ''EK - LH'' vertical camera lock and lack of jump worked well. 
                 However those were first things we got rid of when we started putting together idea for ''EK2''</p>
 
-            <section id="screenshots"><h2>Gallery</h2> <h3>Various In Development Screenshots And Mockups</h3></section>
-            <div class="galkuva"><img src="ek_kuvat/hautuumaa.png" alt="heavily post processed 1-bit scene of graveyard, with bluish green palette."></div>
-            <div class="galkuva"><img src="ek_kuvat/daytime.png" alt="Old house in bright, foggy day time."></div>
-            <div class="galkuva"><img src="ek_kuvat/colliders.png" alt="Example of how everything is box colliders and how to still achieve real sloped surfaces"></div>
-            <div class="galkuva"><img src="ek_kuvat/hiteffect.png" alt="Example of possible hit effect employing momentiraly overdone chromatic aberration"></div>
-            <div class="galkuva"><img src="ek_kuvat/leveldesign.png" alt=""></div>
-            <div class="galkuva"><img src="ek_kuvat/meri.gif" alt=".Gif of very primitive water simulation"></div>
-            <div class="galkuva"><img src="ek_kuvat/lyönti.gif" alt=".Gif of frame by frame sickle animation"></div>
-            <div class="galkuva"><img src="ek_kuvat/hotrod_comp.png" alt="Textureless 3D models of hot rod from EK1 and EK2 compared"></div>
-            <div class="galkuva"><img src="ek_kuvat/sumu.png" alt="Very primitive fog simulation, employing meshes with semi alpha textures"></div>
-            <div class="galkuva"><img src="ek_kuvat/reflections.png" alt="Awesome reflections, that are actually just mesh duplicated and mirrored"></div>
-            <div class="galkuva"><img src="ek_kuvat/levelformat.png" alt="Level editor of EK-LH during jam was Google Docs. Docs allowed some amount of visualization cause it was possible to give color for numbers, but otherwise it was all visualized in head."></div>
-            <div class="galkuva"><img src="ek_kuvat/handsprites.png" alt="Process of drawing hands, emplying rotoscoping techniques"></div>
-            <div class="galkuva"><img src="ek_kuvat/konseptit.png" alt="Some surviving concepts for EK-LH Post Jam"></div>
-
-            <div class="galbutt">
-                <button id="oikealle" onclick="nextgalImage()"> <img class="nappi-img" src="ek_kuvat/left.png"> </button>
-                <button id="vasemmalle" onclick="prevgalImage()"> <img class="nappi-img" src="ek_kuvat/right.png"> </button>
             </div>
 
+</section>
 
+<section id="screenshots">
 
-        </section>
+    <h2>Gallery</h2>
+    <h3>Various In Development Screenshots And Mockups</h3>
 
-        
-        
+            <div id="currentgaltitle"></div>
+   
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/hautuumaa.png" alt="heavily post processed 1-bit scene of graveyard, with bluish green palette."></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/daytime.png" alt="Old house in bright, foggy day time."></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/colliders.png" alt="Example of how everything is box colliders and how to still achieve real sloped surfaces"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/hiteffect.png" alt="Example of possible hit effect employing momentiraly overdone chromatic aberration"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/leveldesign.png" alt=""></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/meri.gif" alt=".Gif of very primitive water simulation"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/lyönti.gif" alt=".Gif of frame by frame sickle animation"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/hotrod_comp.png" alt="Textureless 3D models of hot rod from EK1 and EK2 compared"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/sumu.png" alt="Very primitive fog simulation, employing meshes with semi alpha textures"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/reflections.png" alt="Awesome reflections, that are actually just mesh duplicated and mirrored"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/levelformat.png" alt="Level editor of EK-LH during jam was Google Docs. Docs allowed some amount of visualization cause it was possible to give color for numbers, but otherwise it was all visualized in head."></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/handsprites.png" alt="Process of drawing hands, emplying rotoscoping techniques"></div>
+            <div class="galkuva"><img class="galleriakuvat" src="ek_kuvat/konseptit.png" alt="Some surviving concepts for EK-LH Post Jam"></div>
 
+            <div id="currentgaldescr"></div>
 
-        
-        
-        
-
-
+            <div class="galbutt">
+                <div class="center">         
+                    <button id="vasemmalle" onclick="prevgalImage()"> <img class="nappi-img" src="ek_kuvat/left.png"> </button>
+                    <button id="oikealle" onclick="nextgalImage()"> <img class="nappi-img" src="ek_kuvat/right.png"> </button>
+                </div>
+            </div>
+            
+</section> 
+</main>
 </body>
 </html>
