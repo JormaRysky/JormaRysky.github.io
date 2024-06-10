@@ -12,7 +12,8 @@ function makeroof(){
         "roof4.png",
         "roof5.png",
         "roof6.png",
-        "roof7.png"
+        "roof7.png",
+        "roof8.png",
     ];
 
     let partlaskuri = 0;
