@@ -24,6 +24,7 @@ function makewheelr(){
         "rengastaka17.png",
         "rengastaka18.png",
         "rengastaka19.png",
+        "rengastaka20.png",
     ];
 
     let partlaskuri = 0;
