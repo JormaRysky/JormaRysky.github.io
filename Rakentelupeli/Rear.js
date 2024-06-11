@@ -16,6 +16,7 @@ function makerear(){
         "rear8.png",
         "rear9.png",
         "rear10.png",
+        "rear11.png",
     ];
 
     let partlaskuri = 0;

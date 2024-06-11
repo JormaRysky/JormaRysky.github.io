@@ -17,6 +17,7 @@ function makeexhaust(){
         "exhaust9.png",
         "exhaust10.png",
         "exhaust11.png",
+        "exhaust12.png",
     ];
 
     let partlaskuri = 0;
